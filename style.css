@@ -857,6 +857,21 @@ h4 {
     max-width: 450px;
     margin: auto;
 }
+
+.redblock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.coordonnees {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    flex-direction: column;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
