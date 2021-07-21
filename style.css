@@ -905,6 +905,10 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
+    .redblock {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -934,6 +938,7 @@ h4 {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
+  
 }
 
 @media (max-width: 767px) {
@@ -1080,7 +1085,45 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .redblock {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .bg-presentation {
+        height: 750px;
+    }
 }
+
+@media (max-width: 330px) {
+    .redblock {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .bg-presentation {
+        height: 800px;
+    } 
+    .black-background {
+        padding: 5px;
+    }   
+}
+
+@media (min-width:720px) and (max-width:1024px){
+    .redblock {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+}
+
+@media (min-width:1367px) {
+    .redblock {
+        padding-left: 400px;
+        padding-right: 400px;
+    }
+
+}
+
+
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
