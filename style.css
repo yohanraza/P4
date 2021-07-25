@@ -834,7 +834,7 @@ h4 {
     
 }
 
-#description {
+.description {
     font-size: 21px;
     font-style: italic;
     max-width: 500px;
@@ -842,17 +842,17 @@ h4 {
     margin-bottom: 10px;
     
 }
-#description_autor {
+.description_autor {
     font-size: 14px;
 }
-#pagedescription {
+.pagedescription {
     font-size: 23px;
     max-width: 650px;
     margin: auto;
     margin-bottom: 20px;
 }
 
-#realisation {
+.realisation {
     font-size: 22px;
     max-width: 450px;
     margin: auto;
